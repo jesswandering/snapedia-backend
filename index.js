@@ -62,6 +62,6 @@ mongoose
         app.listen(PORT, () => console.log(`🎧 You're listening to the smooth sounds of port ${PORT} 🎧`))
 
         // ADD THIS DATA ONE TIME
-        // User.insertMany(users);
+        User.insertMany(users);
         // Post.insertMany(posts);
     }).catch((error) => console.log(`${error} did not connect`));
